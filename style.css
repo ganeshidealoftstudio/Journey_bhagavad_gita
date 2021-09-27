@@ -14,6 +14,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-calendar-picker-indicator{
+    margin-left: -60px;
+}
 .main {
     max-width: 1440px;
     margin: auto;
@@ -127,9 +130,22 @@
     box-sizing: border-box;
     box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
     border-radius: 8.5487px;
-    font-size: 16px;
-    padding: 9px 8px;
+    font-size: 12px;
+    padding: 9px 4px;
     color: #872679;
+}
+.baseinput3 {
+    background: #FFFFFF;
+    border: 1.70974px solid rgba(243, 121, 110, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+    border-radius: 8.5487px;
+    font-size: 12px;
+    padding: 10px 4px;
+    color: #872679;
+}
+.baseinput3:focus {
+    outline: none;
 }
 .w100 {
     width: 100%;
@@ -157,9 +173,10 @@ input:focus {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .inputbox2 {
-    width: 48%;
+    width: 31%;
 }
 .inputnote {
     font-family: Avenir;
@@ -252,7 +269,7 @@ input:focus {
     color: #872679;
     width: 80%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 .middlesection {
     width: 100%;
@@ -290,13 +307,18 @@ input:focus {
 }
 .middlebox1 {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 .middlebox2 {
     width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid transparent; */
 }
 .carimg {
     width: 100%;
-    height: 85%;
+    height: 90%;
     /* border: 1px solid black; */
 }
 .middleultxt {
@@ -319,7 +341,7 @@ input:focus {
     background: linear-gradient(89.68deg, #872679 21.06%, #F05EB6 99.71%);
     border-radius: 10px;
     padding: 15px 0;
-    margin-top: -1%;
+    margin-top: 2%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
@@ -430,11 +452,12 @@ input:focus {
 
 .clientbox {
     
-    width: 75%;
+    width: 80%;
     padding: 15px 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     background: #FFFFFF;
     border: 2px solid rgba(240, 94, 134, 0.5);
@@ -444,7 +467,14 @@ input:focus {
     border-radius: 20px;
     margin-top: 2.5%;
     margin-bottom: 2%;
-    gap: 2%;
+    /* gap: 3%; */
+    
+    
+}
+.clientboximg {
+    /* width: 17%; */
+    /* margin-bottom: 3%; */
+    margin: 1.5%;
 }
 .testiheadtxt {
     font-family: Playfair Display;
@@ -466,7 +496,6 @@ input:focus {
     width: 80%;
     padding: 8px;
     
-    
 }
 
 .swiper-slide {
@@ -480,10 +509,11 @@ input:focus {
     box-shadow: 0px 3.41948px 10.2584px rgba(91, 91, 91, 0.2);
     border-radius: 10px;
     display: flex;
-    gap: 3%;
+    justify-content: space-between;
+    /* gap: 3%; */
 }
 .testiimgtxtbox {
-    width: 30%;
+    width: 29%;
 }
 .testiimg {
     width: 100%;
@@ -510,17 +540,21 @@ input:focus {
     text-align: center;
 }
 .testitxtbox {
-    width: 70%;
+    width: 68%;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .coat {
     color: #555555;
     opacity: 0.3;
     font-size: 50px;
-    line-height: 5px;
+    line-height: 33px;
     font-weight: bolder;
+}
+.pr {
+    padding-right: 5%;
 }
 .testicoattxt {
     font-family: Avenir;
@@ -692,10 +726,21 @@ input:focus {
         box-sizing: border-box;
         box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
         border-radius: 8.5487px;
-        font-size: 16px;
-        padding: 7px 8px;
+        font-size: 10px;
+        padding: 7px 4px;
         color: #872679;
     }
+    .baseinput3 {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 10px;
+        padding: 8px 4px;
+        color: #872679;
+    }
+   
     .w100 {
         width: 100%;
     }
@@ -724,7 +769,7 @@ input:focus {
         justify-content: space-between;
     }
     .inputbox2 {
-        width: 48%;
+        width: 32%;
     }
     .inputnote {
         font-family: Avenir;
@@ -812,11 +857,10 @@ input:focus {
         font-family: Avenir;
         font-style: normal;
         font-weight: 800;
-        font-size: 12px;
-        line-height: 21px;
+        font-size: 10px;
+        line-height: 15 px;
         color: #872679;
-        width: 80%;
-        margin: auto;
+        text-align: center;
         margin-top: 1%;
     }
     .middlesection {
@@ -984,6 +1028,10 @@ input:focus {
     }
     .ravijidesctxtbold {
         font-weight: bold;
+    }
+    .makepara {
+        display: block;
+        margin-top: 2%;
     }
     .registertxt3 {
         font-family: Avenir;
@@ -1251,8 +1299,18 @@ input:focus {
         box-sizing: border-box;
         box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
         border-radius: 8.5487px;
-        font-size: 16px;
-        padding: 9px 8px;
+        font-size: 7px;
+        padding: 9px 4px;
+        color: #872679;
+    }
+    .baseinput3 {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 12px;
+        padding: 10px 4px;
         color: #872679;
     }
     .w100 {
@@ -1281,9 +1339,10 @@ input:focus {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        
     }
     .inputbox2 {
-        width: 48%;
+        width: 32%;
     }
     .inputnote {
         font-family: Avenir;
@@ -1470,7 +1529,78 @@ input:focus {
         margin-top: 2.5%;
         margin-bottom: 2%;
     }
-   
+    .swiper {
+        width: 80%;
+        padding: 8px;
+        
+    }
+    
+    .swiper-slide {
+        width: 100%;
+    }
+    
+    .testibox {
+        width: 100%;
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 3.41948px 10.2584px rgba(91, 91, 91, 0.2);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 3%;
+    }
+    .testiimgtxtbox {
+        width: 29%;
+    }
+    .testiimg {
+        width: 100%;
+    }
+    .testiname {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 30px;
+        color: #353535;
+        text-align: center;
+        color: #872679;
+        margin-top: 1%;
+    }
+    .testiposition {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: #353535;
+        opacity: 0.6;
+        text-align: center;
+    }
+    .testitxtbox {
+        width: 68%;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .coat {
+        color: #555555;
+        opacity: 0.3;
+        font-size: 50px;
+        line-height: 33px;
+        font-weight: bolder;
+    }
+    .pr {
+        padding-right: 5%;
+    }
+    .testicoattxt {
+        font-family: Avenir;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+    }
     .footerwave {
         width: 100%;
         padding-bottom: 15%;
@@ -1480,7 +1610,68 @@ input:focus {
     } 
     
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
+    .dhide {
+        display: none;
+    }
+    .baseinput2 {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 8px;
+        padding: 9px 2px;
+        color: #872679;
+    }
+    .baseinput3 {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 7px;
+        padding: 10px 4px;
+        color: #872679;
+    }
+    .submit {
+        background: linear-gradient( 89.68deg, #872679 21.06%, #F05EB6 99.71%);
+        border: 1.70974px solid #872679;
+        box-sizing: border-box;
+        border-radius: 8.5487px;
+        color: #FFFFFF;
+        width: 80%;
+        margin: auto;
+        display: block;
+        padding: 13px 0;
+    }
+}
+@media only screen and (min-device-width: 993px) and (max-device-width: 1290px) {
+    .dhide {
+        display: none;
+    }
+    .baseinput2 {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 9px;
+        padding: 9px 4px;
+        color: #872679;
+    }
+    .baseinput3 {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 9px;
+        padding: 10px 4px;
+        color: #872679;
+    }
+}
+@media only screen and (min-device-width: 1291px){
     .dhide {
         display: none;
     }

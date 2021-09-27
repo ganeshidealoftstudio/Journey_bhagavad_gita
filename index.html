@@ -30,7 +30,7 @@
                 <div class="headerform">
                     <div class="formbox">
                         <p class="playingtext">Playing for a limited time</p>
-                        <p class="singtxt shide">Sign up for free Masterclass today</p>
+                        <p class="singtxt shide">Sign up for your free Masterclass today</p>
                         <p class="singtxt dhide">Begin Your Journey</p>
                         <form action="">
                             <p class="inputnametxt mt3">Enter Name</p>
@@ -39,21 +39,62 @@
                             <input type="text" name="personname" id="personname" class="baseinput w100 mt1"> 
                             <div class="inputbox mt3">
                                 <div class="inputbox2">
-                                    <p class="inputnametxt mt3">Select Time</p>
-                                    <input type="time" name="personname" id="personname" class="baseinput2 w100 mt1"> 
-                                    <p class="inputnote">Times is as per your time zone</p>
+                                    <p class="inputnametxt mt3">Select Date</p>
+                                    <input type="date" name="personname" id="personname" class="baseinput2 w100 mt3"> 
                                 </div>
                                 <div class="inputbox2">
-                                    <p class="inputnametxt mt3">Select Date</p>
-                                    <input type="date" name="personname" id="personname" class="baseinput2 w100 mt1"> 
+                                    <p class="inputnametxt mt3">Select Zone</p>
+                                    <select name="country_code" id="country_code" class="baseinput3 w100 mt3">
+                                        <option value="" style="display: none;" selected="selected">Zone</option>
+                                        <option value="GMT">Greenwich Mean Time</option>
+                                        <option value="UTC">Universal Coordinated Time</option>
+                                        <option value="ECT">European Central Time</option>
+                                        <option value="EET">Eastern European Time</option>
+                                        <option value="ART">(Arabic) Egypt Standard Time</option>
+                                        <option value="EAT">Eastern African Time</option>
+                                        <option value="MET">Middle East Time</option>
+                                        <option value="NET">Near East Time</option>
+                                        <option value="PLT">Pakistan Lahore Time</option>
+                                        <option value="IST">India Standard Time</option>
+                                        <option value="BST">Bangladesh Standard Time</option>
+                                        <option value="VST">Vietnam Standard Time</option>
+                                        <option value="CTT">China Taiwan Time</option>
+                                        <option value="JST">Japan Standard Time</option>
+                                        <option value="ACT">Australia Central Time</option>
+                                        <option value="AET">Australia Eastern Time</option>
+                                        <option value="SST">Solomon Standard Time</option>
+                                        <option value="NST">New Zealand Standard Time</option>
+                                        <option value="MIT">Midway Islands Time</option>
+                                        <option value="HST">Hawaii Standard Time</option>
+                                        <option value="AST">Alaska Standard Time</option>
+                                        <option value="PST">Pacific Standard Time</option>
+                                        <option value="PNT">Phoenix Standard Time</option>
+                                        <option value="MST">Mountain Standard Time</option>
+                                        <option value="CST">Central Standard Time</option>
+                                        <option value="EST">Eastern Standard Time</option>
+                                        <option value="IET">Indiana Eastern Standard Time</option>
+                                        <option value="PRT">Puerto Rico and US Virgin Islands Time</option>
+                                        <option value="CNT">Canada Newfoundland Time</option>
+                                        <option value="AGT">Argentina Standard Time</option>
+                                        <option value="BET">Brazil Eastern Time</option>
+                                        <option value="CAT">Central African Time</option>
+                                        <option value=""></option>
+
+                                      </select>
                                 </div>
+                                <div class="inputbox2">
+                                    <p class="inputnametxt mt3">Select Time</p>
+                                    <input type="time" name="personname" id="personname" class="baseinput2 w100 mt3"> 
+                                    <!-- <p class="inputnote">Times is as per your time zone</p> -->
+                                </div>
+                                
                             </div>
                             <div class="termsbox mt3">
                                 <label class="checkbox">.
                                     <input type="checkbox" >
                                     <span class="checkmark"></span>
                                 </label>
-                                <p class="termtxt">By clicking the button above, you are creating an account with Journeyswith and agree to our Privacy Polcu and Terms of Use including receiving emails.</p>
+                                <p class="termtxt">By clicking the button above, you are creating an account with Journeyswith.in and agree to our Privacy Policy and Terms of Use including receiving emails.</p>
                             </div>
                             <input type="submit" value="Reserve My Spot" class="submit">
                             <p class="nocredittxt">**No credit card required</p>
@@ -64,7 +105,7 @@
         </div>
         <div class="middlesection">
             <p class="middleheadtxt shide">What’s covered in this Masterclass</p>
-            <p class="middlesubtxt shide">This Masterclass will help you gain a deeper understanding of how the Gita can apply to everyday life and guide your inner journey</p>
+            <p class="middlesubtxt shide">These teachings will help you gain a deeper understanding of how the Gita can apply to everyday life and guide your inner journey</p>
             <div class="boxx1 dhide">
                 <div class="boxx2">
                     <img src="img/cartsmall.png" alt="">
@@ -79,11 +120,10 @@
                 </div>
                 <div class="middlebox2">
                     <ul class="middleultxt">
-                        <li>Insights from the <span class="middleultxtbold">teachings of Bhagavad Gita</span> that can help navigate the battle of life.</li>
-                        <li class="mt4">Putting into practice in daily life,  the teachings of the Sinlge Most important <span class="middleultxtbold">spiritual text to originate from India. </span></li>
                         <li class="mt4">How to connect with our <span class="middleultxtbold">own Krishna, the deeper self within? </span></li>
-                        <li class="mt4">Translation and Commentary of the original scripture by Ravi Ravindra</span>by Ravi Ravindra.
-                        </li>
+                        <li class="mt4">Putting into practice in daily life,  the teachings of the Sinlge Most important <span class="middleultxtbold">spiritual text to originate from India. </span></li>
+                        <li class="mt4">Insights from the <span class="middleultxtbold">teachings of Bhagavad Gita</span> that can help navigate the battle of life.</li>
+                        <li class="mt4">Translation and Commentary of the original scripture by Ravi Ravindra.</li>
                     </ul>
                 </div>
             </div>
@@ -96,10 +136,10 @@
                 <img src="img/geeta.png" alt="" class="geetaimg">
             </div>
             <div class="ravijidescbox">
-                <p class="ravijidesctxt"><span class="ravijidesctxtbold">Ravi Ravindra</span>, now over 80 years old,  is a physicist and spiritual searcher, has a PHD in Physics form the University of Toronto, and is Post Doctorate fellow in Philosophy and Comparitive Religion. at the Columbia University.
-                    In his spiritual search Ravi was introduced to J. Krishnamurti, Madame de Salzmann, Zen Master Roshi Kabori, and underwent a deep immersion in the mystical teachings of the Indian and Christian classical traditions. He is the author of several books on religion, science, mysticism, and spirituality.</p>
+                <p class="ravijidesctxt"><span class="ravijidesctxtbold">Ravi Ravindra</span>  is a physicist and spiritual searcher, has a PHD in Physics form the University of Toronto, and is Post Doctorate fellow in Philosophy and Comparitive Religion. at the Columbia University.
+                   <span class="makepara"></span> In his spiritual search Ravi was introduced to J. Krishnamurti, Madame de Salzmann, Zen Master Roshi Kabori, and underwent a deep immersion in the mystical teachings of the Indian and Christian classical traditions. He is the author of several books on religion, science, mysticism, and spirituality.</p>
             </div>
-            <a href="#" class="registertxt3">Register Now</a>
+            <a href="#" class="registertxt3">Enroll Now</a>
         </div>
         <div class="clientbox">
             <img src="img/clientimg1.png" alt="" class="clientboximg shide">
@@ -126,34 +166,144 @@
                             <div class="testiimgtxtbox">
                                 <img src="img/sarah.png" alt="" class="testiimg">
                                 <p class="testiname">Sarah J Baskin</p>
-                                <p class="testiposition">Pune, India</p>
+                                <p class="testiposition"></p>
                             </div>
                             <div class="testitxtbox">
                                 <p class="coat" style="text-align: left;">&#8220</p>
                                 <p class="testicoattxt">I particularly appreciate the sanskrit transliteration on screen when Ravi uses sanskrit terminology. Also having participation and questions on camera from the group is helpful.</p>
-                                <p class="coat" style="text-align: right;"> &#8222; </p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Trudy.png" alt="" class="testiimg">
+                                <p class="testiname">Trudy Boyle</p>
+                                <p class="testiposition"></p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">I think the program is excellent and I am pleased that we have access indefinitely. I read the BG and I am part of a serious weekly study group. Thank you for all the work you put into this program. I can’t recommend it highly enough.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Anne.png" alt="" class="testiimg">
+                                <p class="testiname">Anne Laird</p>
+                                <p class="testiposition"></p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">Hard to improve, I have been really engaged in his comments.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Beatrize.png" alt="" class="testiimg">
+                                <p class="testiname">Beatrize Soriano</p>
+                                <p class="testiposition"></p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">The course for me has been very nutritious, I feel close to my search. I'm grateful.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
-                  <div class="swiper-slide">Slide 1</div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
-                  <div class="swiper-slide">Slide 1</div>
-                  <div class="swiper-slide">Slide 2</div>
-                  <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Eduard.png" alt="" class="testiimg">
+                                <p class="testiname">Eduard Hempel</p>
+                                <p class="testiposition"></p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">It made a shift in my perception of where I am in the universe and what could be next for me. It has increased my inner vocabulary and given me a map of where my search can be going forward. Gratitude, gratitude, gratitude…</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Christina.png" alt="" class="testiimg">
+                                <p class="testiname">Christina Ghost</p>
+                                <p class="testiposition">Business consultant</p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">Something has shifted from this being just a story to a metaphor for the human condition</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Vikram.png" alt="" class="testiimg">
+                                <p class="testiname">Vikram Kaushik</p>
+                                <p class="testiposition">Former CEO</p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">Ravi has brought light and revealed the one can get self obsessed, and must remember that we’re all beginners.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Meena.png" alt="" class="testiimg">
+                                <p class="testiname"> Meena Kaushik</p>
+                                <p class="testiposition">Social anthropologist </p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">He teaches to begin from where you are. He answered every single question as it cropped as if he was reading my mind. This is amazing! The mystery became bigger and more real and experiential.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Malavika.png" alt="" class="testiimg">
+                                <p class="testiname">Malavika Sarukkai</p>
+                                <p class="testiposition">Bharatnatyam Exponent</p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">I feel drenched, I need to let it percolate and let absorb… This has deepened my idea of the characters, given me greater dimensions and taken me deeper into my art form.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="testibox">
+                            <div class="testiimgtxtbox">
+                                <img src="img/Eshana.png" alt="" class="testiimg">
+                                <p class="testiname">Eshana Alcover</p>
+                                <p class="testiposition"></p>
+                            </div>
+                            <div class="testitxtbox">
+                                <p class="coat" style="text-align: left;">&#8220</p>
+                                <p class="testicoattxt">That course contains 240 minutes of video recording, total 4 hours + 3 webinars. I really appreciate the work of the team to editing the vídeos, select the contents and make this course available. Every video are very valuable. I have see every vídeo more than one time…but it will be not available after 3 weeks. The pdf also are helping and I request if is possible to make available on pdf to download, as viedos will be not available soon. Insights, Exploration and then Glossary…really an extraordinary work. Congratulations to all Team and specially to Raviji.</p>
+                                <p class="coat pr" style="text-align: right;"> &#8222; </p>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
-                <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
-              
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"> <img src="img/arrowleft.png" alt="" style="position: absolute;"></div>
-                <div class="swiper-button-next"></div> -->
-              
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
         </div>
         <a href="#" class="registertxt4">Register Now</a>
@@ -161,14 +311,22 @@
             <img src="img/wave.png" alt="" class="footerwaveimg">
         </div>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $( "#country_code" ).change( function()
+        {
+            var $this = $( this )
+            $this.find( "option:first" ).text($this.val() ).val( $this.val() ).prop( 'selected', true )
+        } )
+    </script>
     <script type="module">
         var swiper = new Swiper('.swiper', {
             slidesPerView: 'auto',
             loop: true,
-            // autoplay: {
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
             spaceBetween: 30,
             pagination: {
                 el: '.swiper-pagination',
