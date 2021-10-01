@@ -123,14 +123,25 @@
                 <div class="middlebox2">
                     <ul class="middleultxt">
                         <li class="mt4">How to connect with our <span class="middleultxtbold">own Krishna, the deeper self within? </span></li>
-                        <!-- <li class="mt4">Putting into practice in daily life,  the teachings of the Sinlge Most important <span class="middleultxtbold">spiritual text to originate from India. </span></li> -->
-                        <li class="mt4">Strengthen your daily practice with teachings from the Single Most important spiritual text to originate from India. </span></li>
-                        <li class="mt4">Insights from the <span class="middleultxtbold">teachings of Bhagavad Gita</span>on how to resolve conflicts and inner turmoil.</li>
+                        <li class="mt4">Putting into practice in daily life,  the teachings of the Sinlge Most important <span class="middleultxtbold">spiritual text to originate from India. </span></li>
+                        <li class="mt4">Insights from the <span class="middleultxtbold">teachings of Bhagavad Gita</span> that can help navigate the battle of life.</li>
                         <li class="mt4">Translation and Commentary of the original scripture by Ravi Ravindra.</li>
                     </ul>
                 </div>
             </div>
             <a href="#" class="reserv2">Reserve My Spot</a>
+        </div>
+        <div class="aboutbox">
+            <p class="aboutheadtxt">About Ravi Ravindra</p>
+            <div class="ravijigeetaimgb">
+                <img src="img/raviji.png" alt="" class="ravijiimg">
+                <img src="img/geeta.png" alt="" class="geetaimg">
+            </div>
+            <div class="ravijidescbox">
+                <p class="ravijidesctxt"><span class="ravijidesctxtbold">Ravi Ravindra</span>  is a physicist and spiritual searcher, has a PHD in Physics form the University of Toronto, and is Post Doctorate fellow in Philosophy and Comparitive Religion. at the Columbia University.
+                   <span class="makepara"></span> In his spiritual search Ravi was introduced to J. Krishnamurti, Madame de Salzmann, Zen Master Roshi Kabori, and underwent a deep immersion in the mystical teachings of the Indian and Christian classical traditions. He is the author of several books on religion, science, mysticism, and spirituality.</p>
+            </div>
+            <a href="#" class="registertxt3">Enroll Now</a>
         </div>
         <div class="clientbox">
             <img src="img/clientimg1.png" alt="" class="clientboximg shide">
@@ -145,19 +156,6 @@
             <img src="img/clientimgs4.png" alt="" class="clientboximg dhide">
             
         </div>
-        <div class="aboutbox">
-            <p class="aboutheadtxt">About Ravi Ravindra</p>
-            <div class="ravijigeetaimgb">
-                <img src="img/raviji.png" alt="" class="ravijiimg">
-                <img src="img/geeta.png" alt="" class="geetaimg">
-            </div>
-            <div class="ravijidescbox">
-                <p class="ravijidesctxt"><span class="ravijidesctxtbold">Ravi Ravindra</span>  is a physicist and spiritual searcher, has a PHD in Physics form the University of Toronto, and is Post Doctorate fellow in Philosophy and Comparitive Religion at the Columbia University.
-                   <span class="makepara"></span> In his spiritual search Ravi was introduced to J. Krishnamurti, Madame de Salzmann, Zen Master Roshi Kabori, and underwent a deep immersion in the mystical teachings of the Indian and Christian classical traditions. He is the author of several books on religion, science, mysticism, and spirituality.</p>
-            </div>
-            <a href="#" class="registertxt3">RSVP</a>
-        </div>
-        
         <!-- slider here -->
         <p class="testiheadtxt">Student Testimonials</p>
         <div class="testislider">
@@ -331,7 +329,7 @@
             slidesPerView: 'auto',
             loop: true,
             autoplay: {
-                delay: 3500,
+                delay: 3000,
                 disableOnInteraction: false,
             },
             spaceBetween: 30,

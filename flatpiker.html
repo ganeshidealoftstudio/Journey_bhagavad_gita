@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <style>
+          .baseinput {
+        background: #FFFFFF;
+        border: 1.70974px solid rgba(243, 121, 110, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0px 3.41948px 10.2584px rgba(232, 232, 232, 0.6);
+        border-radius: 8.5487px;
+        font-size: 12px;
+        padding: 9px 4px;
+        color: #872679;
+    }
+    </style>
+</head>
+<body>
+    
+    <input type="text" id="mydate" class="baseinput">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        config = {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: "H:i K",
+            defaultDate: "13:45"
+        }
+        flatpickr("#mydate", config);
+    </script>
+</body>
+</html>
+
+<!-- config = {
+    enableTime: true,
+    dateFormat: "Y-m-d H:i",
+    altInput: true,
+    altFormat: "d-m-y h:s K",
+    
+} -->

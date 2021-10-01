@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Timepicker example</title>
+    <link rel="stylesheet" href="mdtimepicker.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="mdtimepicker.js"></script>
+</head>
+<body>
+
+    <input type="text" id="timepicker" placeholder="Pick a time..." />
+
+    <script>
+        $('#timepicker').mdtimepicker({
+
+// time format
+timeFormat: 'hh:mm:ss.000', 
+
+// format of the input value
+format: 'hh:mm tt',
+
+// readonly mode
+readOnly: false, 
+
+// determines if display value has zero padding for hour value less than 10 (i.e. 05:30 PM); 24-hour format has padding by default
+hourPadding: false,
+
+// theme of the timepicker
+// 'red', 'purple', 'indigo', 'teal', 'green', 'dark'
+
+});
+    </script>
+</body>
+</html>
